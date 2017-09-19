@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/signinlayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    tools:context="com.adamnain.android.dailycost.MainActivity"
+    android:weightSum="1">
+
+
+    <ImageView
+
+        android:layout_marginTop="70dp"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:src="@drawable/logoproject"
+        android:layout_gravity="center"
+        />
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DailyCost"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textColor="@color/colorAccent"
+        android:textStyle="italic|bold"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="username"
+        android:id="@+id/username"
+        android:textColor="@color/white"
+        android:textColorHint="@color/colorAccent"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="password"
+        android:textColor="@color/white"
+        android:id="@+id/password"
+        android:textColorHint="@color/colorAccent"
+        android:inputType="textPassword" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp"
+        >
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="sign up"
+            android:id="@+id/signUpClick"
+            android:onClick="onSignUpClick"
+            android:background="@color/buttondark"
+            android:textColor="@color/colorAccent"
+            />
+        <Button
+            android:layout_width="0dp"
+            android:layout_marginLeft="8dp"
+            android:layout_weight="1"
+             android:layout_height="wrap_content"
+            android:text="sign in"
+            android:id="@+id/signInClick"
+            android:onClick="onSignInClick"
+            android:background="@color/buttondark"
+            android:textColor="@color/colorAccent"
+            />
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="new on DailyCost? please sign up"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:paddingTop="5dp"
+        android:textSize="11sp"
+        android:textStyle="italic"
+        />
+
+
+</LinearLayout>

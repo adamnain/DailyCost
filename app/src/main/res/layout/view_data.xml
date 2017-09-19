@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="#d1d1d1"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:background="@color/orange">
+        <ImageButton
+            android:background="@color/orange"
+            android:src="@drawable/back"
+            android:scaleType="fitCenter"
+            android:padding="14dp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:id="@+id/back"
+            android:onClick="onBackClick"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="9"
+            android:layout_height="wrap_content"
+            android:text="adam"
+            android:textSize="18dp"
+            android:textAlignment="textStart"
+            android:paddingTop="16dp"
+            android:textColor="@color/putih"
+            android:id="@+id/tv_vusername"/>
+    </LinearLayout>
+
+
+    <ListView
+        android:id="@+id/listview_detail"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:divider="#d1d1d1"
+        android:dividerHeight="10dp">
+
+    </ListView>
+
+</LinearLayout>

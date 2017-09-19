@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.adamnain.android.dailycost.MainActivity">
+
+    <TextView
+
+        android:paddingTop="50dp"
+        android:paddingBottom="21dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="adam"
+        android:textColor="@color/putih"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        android:id="@+id/getUname"
+        android:background="@color/orange"
+        />
+     <TextView
+         android:background="@color/darkorange"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="Rp.0"
+         android:textColor="@color/putih"
+         android:textSize="24sp"
+         android:textAlignment="center"
+         android:paddingBottom="10dp"
+         android:id="@+id/saldoini"
+         />
+    <EditText
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="money"
+        android:ems="10"
+        android:id="@+id/editText_money"
+        android:inputType="number"
+        />
+    <EditText
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="note"
+        android:ems="10"
+        android:id="@+id/editText_note" />
+
+
+    <EditText
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="yyyy-mm-dd hh:mm"
+        android:ems="10"
+        android:id="@+id/editText_tanggal"
+        android:inputType="text"
+        android:onClick="et_tanggal"
+        android:clickable="true"
+        />
+
+    <Button
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:text="income"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_income"
+        android:background="@drawable/my_button_bg"
+        android:textColor="@color/white"
+        />
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_width="match_parent"
+        android:text="outcome"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_outcome"
+        android:background="@drawable/my_button_bg"
+        android:textColor="@color/white"
+        />
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="view all data"
+        android:id="@+id/button_view"
+        android:background="@drawable/my_button_bg"
+        android:textColor="@color/white"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageButton
+            android:id="@+id/ib_help"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:background="@drawable/ouval"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="8dp"
+            android:src="@drawable/questionicon"
+            android:onClick="onQuestionClick"
+            />
+
+    </RelativeLayout>
+
+</LinearLayout>

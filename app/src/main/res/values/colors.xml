@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#212121</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#FF9800</color>
+    <color name="white">#e6e6e6</color>
+    <color name="buttondark">#4d4c4b</color>
+    <color name="orange">#FF9800</color>
+    <color name="darkorange">#fc8c19</color>
+    <color name="putih">#ffff</color>
+    <color name="lightPrimaryColor">#FFE0B2</color>
+    <color name="teal">#009688</color>
+    <color name="darkteal">#028b7e</color>
+    <color name="bgmain">#ffffff</color>
+</resources>
